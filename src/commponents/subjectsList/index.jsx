@@ -10,10 +10,11 @@ const styles = {
     fontSize: '24px',
     marginBottom: '20px',
     textAlign: 'center',
+    color: '#333', // Dark gray color
   },
   loading: {
     textAlign: 'center',
-    color: '#888',
+    color: '#777', // Gray color
   },
   error: {
     textAlign: 'center',
@@ -29,15 +30,18 @@ const styles = {
   },
   tableHeaderCell: {
     padding: '12px',
-    background: '#f2f2f2',
+    background: '#f5f5f5', // Light gray background
     fontWeight: 'bold',
     textAlign: 'left',
+    color: '#333', // Dark gray color
   },
   tableCell: {
     padding: '12px',
     textAlign: 'left',
+    color: '#555', // Darker gray color
   },
 };
+
 
 const SubjectsList = () => {
   const [subjects, setSubjects] = useState([]);
